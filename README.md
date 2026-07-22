@@ -1,356 +1,536 @@
-<div align="center">
+# 📘 HTML & CSS Interview Questions and Answers
 
-# 📘 HTML & CSS Interview Preparation
-
-<img src="https://img.shields.io/badge/HTML5-Complete-orange?style=for-the-badge&logo=html5">
-<img src="https://img.shields.io/badge/CSS3-Complete-blue?style=for-the-badge&logo=css3">
-<img src="https://img.shields.io/badge/Interview-Preparation-green?style=for-the-badge">
-<img src="https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge">
-
-### 🚀 Complete HTML & CSS Notes, Examples, Interview Questions & Answers
-
-⭐ If this repository helps you, please consider giving it a **Star**.
-
-</div>
+This repository contains the most frequently asked **HTML & CSS interview questions** with simple and easy-to-understand answers.
 
 ---
 
-# 📑 Table of Contents
+# 📑 HTML Interview Questions
 
-- Introduction
-- Why This Repository?
-- Learning Roadmap
-- HTML Topics
-- CSS Topics
-- Interview Questions
-- Folder Structure
-- How to Use
-- Prerequisites
-- Resources
-- Contributing
-- Author
-- License
+## 1. What is HTML?
+
+**Answer:**
+
+HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages. It defines elements such as headings, paragraphs, links, images, forms, and tables.
 
 ---
 
-# 📖 Introduction
+## 2. What is HTML5?
 
-Welcome to the **HTML & CSS Interview Preparation Repository**.
+**Answer:**
 
-This repository is specially designed for:
-
-- 🎓 Students
-- 💼 Freshers
-- 👨‍💻 Job Seekers
-- 📚 Self Learners
-
-Every topic contains:
-
-- ✅ Definition
-- ✅ Syntax
-- ✅ Examples
-- ✅ Real-Time Examples
-- ✅ Interview Questions
-- ✅ Best Practices
+HTML5 is the latest version of HTML. It introduced semantic tags (`<header>`, `<footer>`), multimedia support (`<audio>`, `<video>`), Canvas, SVG, localStorage, and many new form input types.
 
 ---
 
-# 🎯 Why This Repository?
+## 3. What is the difference between HTML and HTML5?
 
-✔ Beginner Friendly
-
-✔ Interview Oriented
-
-✔ Real-Time Examples
-
-✔ Easy Language
-
-✔ Clean Code
-
-✔ GitHub Ready
-
-✔ Well Structured Notes
+| HTML | HTML5 |
+|------|-------|
+| Older version | Latest version |
+| No audio/video support | Supports audio & video |
+| No semantic tags | Semantic tags available |
+| Limited form controls | New input types |
 
 ---
 
-# 🛣 Learning Roadmap
+## 4. What are HTML tags?
 
-```
-HTML
-│
-├── HTML Basics
-├── Elements
-├── Attributes
-├── Headings
-├── Paragraphs
-├── Links
-├── Images
-├── Lists
-├── Tables
-├── Forms
-├── Input Types
-├── Semantic Tags
-├── iframe
-├── HTML5
-├── Local Storage
-└── Interview Questions
+**Answer:**
 
-↓
+HTML tags are predefined keywords enclosed within angle brackets (`<>`) that define the structure and content of a webpage.
 
-CSS
+Example:
 
-├── CSS Basics
-├── Selectors
-├── Colors
-├── Background
-├── Border
-├── Margin
-├── Padding
-├── Box Model
-├── Display
-├── Position
-├── Overflow
-├── Float
-├── Flexbox
-├── Grid
-├── Transform
-├── Transition
-├── Animation
-├── Responsive Design
-└── Interview Questions
+```html
+<h1>Hello World</h1>
 ```
 
 ---
 
-# 📚 HTML Topics
+## 5. What is an HTML element?
 
-| No | Topic |
+**Answer:**
+
+An HTML element consists of a start tag, content, and an end tag.
+
+Example:
+
+```html
+<p>This is a paragraph.</p>
+```
+
+---
+
+## 6. What is the difference between tags and elements?
+
+**Answer:**
+
+| Tag | Element |
+|-----|---------|
+| `<p>` | `<p>Hello</p>` |
+| Only markup | Complete structure |
+
+---
+
+## 7. What are HTML attributes?
+
+**Answer:**
+
+Attributes provide additional information about HTML elements.
+
+Example:
+
+```html
+<img src="image.jpg" alt="Nature">
+```
+
+Here `src` and `alt` are attributes.
+
+---
+
+## 8. What is the purpose of `<!DOCTYPE html>`?
+
+**Answer:**
+
+It tells the browser that the document is written in HTML5 and ensures standards mode rendering.
+
+---
+
+## 9. What is the difference between id and class?
+
+| id | class |
 |----|-------|
-| 1 | HTML Introduction |
-| 2 | HTML Document Structure |
-| 3 | HTML Elements |
-| 4 | HTML Attributes |
-| 5 | Headings |
-| 6 | Paragraphs |
-| 7 | Formatting Tags |
-| 8 | Lists |
-| 9 | Tables |
-| 10 | Hyperlinks |
-| 11 | Images |
-| 12 | Forms |
-| 13 | Input Types |
-| 14 | Semantic Tags |
-| 15 | Non-Semantic Tags |
-| 16 | Audio |
-| 17 | Video |
-| 18 | iframe |
-| 19 | Meta Tags |
-| 20 | HTML Entities |
-| 21 | Local Storage |
-| 22 | Session Storage |
-| 23 | Accessibility |
-| 24 | SEO Basics |
-| 25 | HTML Interview Questions |
+| Unique | Can be reused |
+| Uses # selector | Uses . selector |
+| One per page | Multiple elements |
 
 ---
 
-# 🎨 CSS Topics
+## 10. What are semantic tags?
 
-| No | Topic |
-|----|-------|
-| 1 | CSS Introduction |
-| 2 | Types of CSS |
-| 3 | Selectors |
-| 4 | Colors |
-| 5 | Background |
-| 6 | Border |
-| 7 | Margin |
-| 8 | Padding |
-| 9 | Box Model |
-| 10 | Box Sizing |
-| 11 | Height & Width |
-| 12 | Display |
-| 13 | Position |
-| 14 | Overflow |
-| 15 | Float |
-| 16 | Clear |
-| 17 | Flexbox |
-| 18 | Grid |
-| 19 | Transform |
-| 20 | Transition |
-| 21 | Animation |
-| 22 | Media Queries |
-| 23 | Responsive Design |
-| 24 | Pseudo Classes |
-| 25 | Pseudo Elements |
-| 26 | CSS Variables |
-| 27 | z-index |
-| 28 | Opacity |
-| 29 | Visibility |
-| 30 | CSS Interview Questions |
+**Answer:**
+
+Semantic tags describe the meaning of the content instead of its appearance.
+
+Examples:
+
+- `<header>`
+- `<nav>`
+- `<main>`
+- `<section>`
+- `<article>`
+- `<footer>`
 
 ---
 
-# 💼 Interview Questions Covered
+## 11. What are non-semantic tags?
 
-## HTML
+**Answer:**
 
-- What is HTML?
-- Difference between HTML and HTML5
-- div vs span
-- id vs class
-- Semantic vs Non-Semantic Tags
-- Block vs Inline Elements
-- HTML Forms
-- iframe
-- Meta Tags
-- HTML Entities
-- Local Storage vs Session Storage
-- Accessibility
-- SEO Basics
+These tags do not describe their content.
+
+Examples:
+
+```html
+<div>
+<span>
+```
 
 ---
 
-## CSS
+## 12. What is the difference between div and span?
 
-- What is CSS?
-- Types of CSS
+| div | span |
+|------|------|
+| Block element | Inline element |
+| Used for layouts | Used for inline styling |
+
+---
+
+## 13. What are block elements?
+
+**Answer:**
+
+Block elements always start on a new line and occupy the full available width.
+
+Examples:
+
+```html
+<div>
+<p>
+<h1>
+<section>
+```
+
+---
+
+## 14. What are inline elements?
+
+**Answer:**
+
+Inline elements occupy only the required width and do not start on a new line.
+
+Examples:
+
+```html
+<span>
+<a>
+<strong>
+<img>
+```
+
+---
+
+## 15. What are HTML entities?
+
+**Answer:**
+
+HTML entities display reserved characters.
+
+Examples:
+
+```html
+&lt;
+&gt;
+&amp;
+&nbsp;
+&copy;
+```
+
+---
+
+## 16. What is iframe?
+
+**Answer:**
+
+An iframe embeds another webpage inside the current webpage.
+
+Example:
+
+```html
+<iframe src="https://example.com"></iframe>
+```
+
+---
+
+## 17. What is localStorage?
+
+**Answer:**
+
+localStorage stores data permanently in the browser until it is manually removed.
+
+Methods:
+
+```javascript
+localStorage.setItem()
+localStorage.getItem()
+localStorage.removeItem()
+```
+
+---
+
+## 18. What is sessionStorage?
+
+**Answer:**
+
+sessionStorage stores data only until the browser tab is closed.
+
+---
+
+## 19. Difference between localStorage and sessionStorage?
+
+| localStorage | sessionStorage |
+|--------------|----------------|
+| Permanent | Temporary |
+| Shared across tabs | Tab-specific |
+| Larger storage | Smaller storage |
+
+---
+
+## 20. Why are semantic tags important?
+
+**Answer:**
+
+- Improve SEO
+- Better accessibility
+- Easier maintenance
+- Cleaner code
+
+---
+
+# 🎨 CSS Interview Questions
+
+## 1. What is CSS?
+
+**Answer:**
+
+CSS (Cascading Style Sheets) is used to style HTML elements. It controls colors, layouts, spacing, fonts, and responsiveness.
+
+---
+
+## 2. What are the types of CSS?
+
+**Answer:**
+
+- Inline CSS
+- Internal CSS
+- External CSS
+
+---
+
+## 3. Which CSS type is recommended?
+
+**Answer:**
+
+External CSS because it improves maintainability, reusability, and page performance.
+
+---
+
+## 4. What are CSS selectors?
+
+**Answer:**
+
+Selectors target HTML elements for styling.
+
+Examples:
+
+- Element
+- Class
+- ID
+- Universal
+- Attribute
+- Grouping
+
+---
+
+## 5. What is the CSS Box Model?
+
+**Answer:**
+
+The Box Model consists of:
+
+- Content
+- Padding
+- Border
+- Margin
+
+---
+
+## 6. Difference between Margin and Padding?
+
+| Margin | Padding |
+|---------|----------|
+| Outside border | Inside border |
+| Transparent | Background color applies |
+
+---
+
+## 7. What is box-sizing?
+
+**Answer:**
+
+It defines how an element's width and height are calculated.
+
+Values:
+
+```css
+content-box
+border-box
+```
+
+---
+
+## 8. Difference between block, inline, and inline-block?
+
+| Block | Inline | Inline-block |
+|--------|--------|--------------|
+| New line | Same line | Same line |
+| Width works | Width ignored | Width works |
+| Height works | Height ignored | Height works |
+
+---
+
+## 9. What is display:flex?
+
+**Answer:**
+
+It creates a Flexbox container for one-dimensional layouts.
+
+```css
+display:flex;
+```
+
+---
+
+## 10. What is justify-content?
+
+**Answer:**
+
+It aligns flex items along the main axis.
+
+Common values:
+
+- flex-start
+- center
+- flex-end
+- space-between
+- space-around
+- space-evenly
+
+---
+
+## 11. What is align-items?
+
+**Answer:**
+
+It aligns flex items along the cross axis.
+
+---
+
+## 12. What is CSS Grid?
+
+**Answer:**
+
+CSS Grid is a two-dimensional layout system used to arrange content in rows and columns.
+
+```css
+display:grid;
+```
+
+---
+
+## 13. Difference between Flexbox and Grid?
+
+| Flexbox | Grid |
+|----------|------|
+| One-dimensional | Two-dimensional |
+| Best for components | Best for page layouts |
+
+---
+
+## 14. What is position?
+
+**Answer:**
+
+The `position` property specifies how an element is positioned.
+
+Values:
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
+
+---
+
+## 15. Difference between relative and absolute?
+
+| Relative | Absolute |
+|----------|----------|
+| Keeps original space | Removes original space |
+| Relative to itself | Relative to nearest positioned ancestor |
+
+---
+
+## 16. What is z-index?
+
+**Answer:**
+
+It controls the stacking order of overlapping elements. Higher values appear on top.
+
+---
+
+## 17. What is overflow?
+
+**Answer:**
+
+It controls what happens when content exceeds an element's size.
+
+Values:
+
+- visible
+- hidden
+- scroll
+- auto
+
+---
+
+## 18. What is transform?
+
+**Answer:**
+
+The `transform` property changes an element's position, size, rotation, or shape.
+
+Functions:
+
+- translate()
+- rotate()
+- scale()
+- skew()
+
+---
+
+## 19. What is transition?
+
+**Answer:**
+
+It creates smooth animations between property changes.
+
+Example:
+
+```css
+transition: all 0.3s ease;
+```
+
+---
+
+## 20. What are pseudo-classes and pseudo-elements?
+
+**Answer:**
+
+### Pseudo-classes
+
+Target an element in a specific state.
+
+Examples:
+
+- `:hover`
+- `:focus`
+- `:active`
+- `:visited`
+
+### Pseudo-elements
+
+Style a specific part of an element.
+
+Examples:
+
+- `::before`
+- `::after`
+- `::first-letter`
+- `::first-line`
+
+---
+
+# ⭐ Topics Covered
+
+- HTML Basics
+- HTML5
+- Semantic HTML
+- Forms
+- Tables
+- CSS Basics
 - Box Model
-- Margin vs Padding
-- Display Property
-- Position Property
-- Overflow
-- Float vs Flexbox
 - Flexbox
 - Grid
+- Position
 - Transform
 - Transition
-- Animation
-- Media Queries
-- z-index
 - Pseudo Classes
 - Pseudo Elements
+- Interview Questions
 
 ---
 
-# 📁 Folder Structure
-
-```
-HTML-CSS-Interview-Preparation
-│
-├── README.md
-│
-├── HTML
-│   ├── HTML_Basics.md
-│   ├── HTML_Forms.md
-│   ├── HTML_Tables.md
-│   ├── HTML_Semantic.md
-│   └── HTML_Interview.md
-│
-├── CSS
-│   ├── CSS_Basics.md
-│   ├── CSS_Box_Model.md
-│   ├── CSS_Flexbox.md
-│   ├── CSS_Grid.md
-│   ├── CSS_Animation.md
-│   └── CSS_Interview.md
-│
-└── Images
-```
-
----
-
-# 🚀 How to Use
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/HTML-CSS-Interview-Preparation.git
-```
-
----
-
-### Open Project
-
-```bash
-cd HTML-CSS-Interview-Preparation
-```
-
----
-
-### Start Learning
-
-Read topics one by one from the **HTML** and **CSS** folders.
-
----
-
-# 💻 Prerequisites
-
-- Basic Computer Knowledge
-- VS Code
-- Web Browser
-- Git (Optional)
-- GitHub Account
-
----
-
-# 📖 Resources
-
-- HTML Documentation
-- CSS Documentation
-- MDN Web Docs
-- W3Schools
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-If you find any issue or want to improve the repository:
-
-1. Fork the repository
-2. Create a new branch
-3. Make changes
-4. Commit your changes
-5. Push your branch
-6. Open a Pull Request
-
----
-
-# 👨‍💻 Author
-
-**Sai Kiran**
-
-- Java Full Stack Developer
-- HTML | CSS | JavaScript | Java | SQL
-
-GitHub: https://github.com/chintubot36
-
----
-
-# ⭐ Support
-
-If you found this repository useful,
-
-please consider giving it a ⭐.
-
-It motivates me to create more learning resources.
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
-Feel free to use it for learning and interview preparation.
-
----
-
-<div align="center">
-
-## ⭐ Happy Learning! ⭐
-
-**Made with ❤️ for Students & Developers**
-
-</div>
+⭐ **If you found this repository helpful, don't forget to Star it!**
