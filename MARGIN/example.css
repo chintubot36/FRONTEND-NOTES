@@ -1,0 +1,32 @@
+h1{
+
+background:rgb(48, 231, 11);
+
+/* margin-left:50px; */
+/* margin-right:50px;
+margin-bottom:50px;
+margin-top:50px; */
+/* margin: auto; */
+margin-bottom:90px;  
+/* margin-top:-20px;    /*Negative Margin */
+
+ /* //Margin Collapsing =  When two vertical margins touch, only the larger margin is applied.*/
+
+ /* Negative Margin can also Given  margin-top:-20px;*/
+
+}
+p {
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-top:310px;
+}
+
+/* .box{
+
+width:230px;
+
+margin:auto;
+
+border:2px solid blue;
+
+} */

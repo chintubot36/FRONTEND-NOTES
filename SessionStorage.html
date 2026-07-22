@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="saveCity()">
+Save City
+</button>
+
+<button onclick="showCity()">
+Show City
+</button>
+
+<script>
+
+function saveCity(){
+
+sessionStorage.setItem("city","Chennai");
+
+}
+
+function showCity(){
+
+alert(sessionStorage.getItem("city"));
+
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  margin-top: 10px;
+  /* background-color: darkblue; */
+
+  /* background: linear-gradient(90deg, darkblue, pink, maroon); */
+
+  /* background: linear-gradient(
+    to top right,
+    lightblue 20%,
+    lightpink 50%,
+    lightseagreen 90%
+  ); */
+
+  /* background: radial-gradient(at top left, blue, red, yellow);
+  border-radius: 50%; */
+
+  background-image: url("https://th.bing.com/th/id/OIP.t2pumzxIlrcMu2digNVLZgAAAA?w=254&h=180&c=7&r=0&o=7&pid=1.7&rm=3");
+  background-size: 10%;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  /* background-position: center; */
+  /* background-position: -80px; */
+  background-position: center;
+}
+
+.image {
+  height: 500px;
+  width: 500px;
+  border: 3px solid green;
+  background-image: url("https://assets.khelnow.com/news/uploads/2025/03/Rohit-Sharma-poses-with-ICC-Champions-Trophy-2025-cup.jpg");
+
+  background-size: 80%;
+  border-radius: 0%;
+  background-position: bottom;
+  background-repeat: repeat;
+  /* background-size:cover; */
+  background-attachment:fixed;
+}

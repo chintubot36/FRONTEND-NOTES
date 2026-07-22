@@ -1,0 +1,7 @@
+h1,                
+h1 + p{
+    color: chartreuse;
+}
+
+/* /h1,h1+P it gives top 2 as same color. 
+if we give p,h1+P it gives bottom 2 as same color */

@@ -1,0 +1,29 @@
+.box{
+    width:150px;
+    height:80px;
+    background:rgb(41, 210, 240);
+    color:rgb(228, 5, 24);
+
+    position:absolute;
+
+    top:50px;
+    left:100px;
+}
+
+"Sai, go and stand 2 feet from the door."
+
+You leave your bench and go near the door.
+
++-----------------------------+
+|                 Sai         |
+|                             |
+|                             |
+|                             |
++-----------------------------+
+
+Your bench becomes empty.
+
+This is exactly what position: absolute does.
+
+✅ The element leaves its original position and moves to a new location
+

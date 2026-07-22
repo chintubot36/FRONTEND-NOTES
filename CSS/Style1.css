@@ -1,0 +1,12 @@
+#main{
+color:red;
+}
+
+.text{
+color:blue;
+}
+
+
+input[type="text"]{
+background-color:yellow;
+}

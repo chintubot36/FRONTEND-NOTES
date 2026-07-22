@@ -1,0 +1,103 @@
+.box{
+    width:300px;
+    height:150px;
+    padding:20px;
+    border:5px solid red;
+    background-color:lightblue;
+
+    box-sizing:content-box;
+
+    /*   content = 300px 
+    Actually:
+
+Left padding = 20px
+Right padding = 20px
+
+Total padding = 40px ✅
+
+Step 3: Border
+Left border = 10px
+Right border = 10px
+
+Total border = 20px ✅
+300 (Content)
++ 40 (Padding)
++ 20 (Border)
+--------------
+360px ->>>Total Width
+
+Width -> Content
+
+*/
+/* Imagine you have a ₹400 budget.
+
+content-box
+
+You say:
+
+"I need ₹400 worth of content."
+
+Then you also buy:
+
+Padding = ₹60
+Border = ₹10
+
+So you spend:
+
+400 + 60 + 10 = ₹470
+
+
+*/
+
+
+
+
+}
+
+
+.box1{
+    width:300px;
+    height: 150px;
+    padding:20px;
+    border:5px solid black;
+    background-color: aquamarine;
+    box-sizing:border-box;
+
+    /* 
+                You say:
+
+"I only have ₹400 total."
+
+First, you pay:
+
+Padding = ₹60
+Border = ₹10
+
+Money left for content:
+
+400 - 60 - 10 = ₹330
+
+So:
+
+Total Budget = ₹400
+
+This is exactly how the browser calculates it.     
+    
+    */
+
+
+    /*  Width - Entire Content+padding+border 
+          Content Width
+= Total Width - Padding - Border
+
+= 400 - 60 - 10
+
+= 330px
+              |5|30|---------330---------|30|5|
+
+               B  P        Content         P  B
+
+
+
+    */
+}

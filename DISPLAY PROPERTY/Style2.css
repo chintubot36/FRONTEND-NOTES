@@ -1,0 +1,14 @@
+.box{
+    display: inline-block;
+
+    width: 150px;
+    height: 100px;
+
+    background: rgb(245, 144, 236);
+
+    text-align: center;
+    line-height: 100px;
+
+    margin: 10px;
+    border: 2px solid black;
+}

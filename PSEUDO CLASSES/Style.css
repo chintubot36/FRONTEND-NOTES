@@ -1,0 +1,33 @@
+ /* button:hover{
+    background:green;
+    color:white;
+}                    -HOVER CLASS */
+
+/* 
+button:active{
+    background:red;
+}                             -ACTIVE CLASS */
+
+input:focus{
+    border:3px solid blue;
+    outline:none;
+}
+
+
+
+
+
+
+
+
+/* a:visited{
+    color:purple;
+}                            -VISTED CLASS */
+
+
+/* li:first-child{
+    color:red;
+}                               -:first-child  */
+
+
+

@@ -1,0 +1,27 @@
+.chat{
+    position:fixed;
+
+    bottom:20px;
+    right:20px;
+
+    width:60px;
+    height:60px;
+
+    background:green;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+    font-size:25px;
+}
+
+| Position     | Definition                                                                         | Real-Time Example                        |
+| ------------ | ---------------------------------------------------------------------------------- | ---------------------------------------- |
+| **Static**   | Default position; follows normal document flow.                                    | Paragraphs, headings                     |
+| **Relative** | Moves relative to its original position while keeping its original space.          | Button adjustment, profile picture       |
+| **Absolute** | Removed from normal flow and positioned relative to the nearest positioned parent. | Notification badge, SALE tag             |
+| **Fixed**    | Positioned relative to the browser window; stays visible during scrolling.         | WhatsApp chat button, Back-to-top button |
+| **Sticky**   | Behaves like relative until a scroll threshold, then sticks in place.              | Navigation bar, table header             |

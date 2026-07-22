@@ -1,0 +1,32 @@
+.box{
+    width:200px;
+    height:100px;
+    background:skyblue;
+
+    position:static;
+
+    top:50px;
+}
+
+
+/* Imagine You're in a Classroom 🏫
+
+There is a classroom.
+
++-----------------------------+
+|                             |
+|                             |
+|                             |
+|                             |
++-----------------------------+
+
+Now you (the student) are sitting on the first bench.
+
++-----------------------------+
+| Sai                         |
+|                             |
+|                             |
+|                             |
++-----------------------------+
+
+This is the normal position. */

@@ -1,0 +1,33 @@
+/* h1::before{
+    content:"🔥 ";
+}                                  1. Before  */
+
+
+/* 
+h1::after{
+    content:" 😊";
+}                                  2.AFTER */
+
+
+/* p::first-letter{
+    font-size:50px;
+    color:red;
+}                                  3.FIRST-LETTER */
+
+
+p::first-line{
+    color:blue;
+    font-weight:bold;
+}                                   4.FIRST-LINE
+
+
+/* 
+::selection{
+    background:yellow;
+    color:red;
+}                                     5.SELECTION */
+
+/* ::placeholder{
+    color:gray;
+    font-style:italic;
+}                                       6.PLACEHOLDER */

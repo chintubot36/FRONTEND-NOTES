@@ -1,0 +1,15 @@
+.box{
+    width:200px;
+    height:100px;
+    background:lightgreen;
+
+    position:relative;
+
+    top:30px;
+    left:50px;
+}
+
+/*   In a Classroom teacher tells that
+Sai moves left to ur bench ,sai moves from original position
+here original place is still reservedby Sai after moved */
+

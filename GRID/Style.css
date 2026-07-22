@@ -1,0 +1,43 @@
+.container{
+
+display:grid;
+
+
+/* grid-template-columns:200px 200px 200px; */
+
+/* grid-template-columns:1fr 1fr 1fr;   Equal Columns = fr means fraction unit */
+ 
+grid-template-columns:repeat(3,1fr);
+
+
+/* grid-template-rows:100px 150px;  #if we want sizing for each box in a row means we go for this syntax */
+
+/* gap:20px; */
+
+/* row-gap:20px; */
+
+/* column-gap:20px; */
+
+
+
+}
+
+.box{
+
+background:skyblue;
+
+padding:20px;
+
+margin:5px;
+
+text-align:center;
+
+}
+
+.one{
+
+/* grid-column:1 / 3; */
+
+
+}
+
